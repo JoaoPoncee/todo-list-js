@@ -1,0 +1,89 @@
+body .status{
+  display: flex;
+  gap: 60px;
+  justify-content: space-between;
+}
+
+body .status .pTaskCreate{
+  color: var(--blue);
+  
+}
+
+body .status .pTaskCompleted{
+  color: var(--purple);
+}
+
+body .status span{
+  background-color: var(--gray-300);
+  color: var(--gray-100);
+  padding: 2px 10px;
+  border-radius: 10px;
+
+}
+
+header form{
+  display: flex;
+  position: relative;
+  bottom: 50px;
+}
+
+.header input{
+  width: 46rem;
+  height: 3.375rem;
+  color: var(--gray-400);
+  background: var(--gray-500);
+  border: solid var(--gray-700);
+  border-radius: 8px;
+  font-size: 20px;
+  padding-left: 16px;
+}
+
+.buttonCreate{
+  width: 5.625rem;
+  height: 3.600rem;
+  background-color: var(--blue-dark);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+
+.buttonCreate:hover{
+  background-color: var(--blue);
+}
+
+.showTasks{
+height: 15.25rem;
+display: flex;
+gap: 12px;
+flex-direction: column;
+}
+
+.withoutTasks{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--gray-400);
+  gap: 5px;
+  border-top: 1px var(--gray-300) solid;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.withoutTasks div{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2px;
+}
